@@ -11,10 +11,21 @@ function agregarAmigo(){
     }else{
         amigos.push(nombre);
         limpiarInput();
+        actualizarLista();
     }
 }
 
 function limpiarInput(){
     let campo = document.querySelector('#amigo');
     campo.value = '';
+}
+
+function actualizarLista(){
+    let lista = document.querySelector('#listaAmigos');
+    lista.innerHTML = '';
+    for (i = 0; i < amigos.length; i++) {
+        let li = document.createElement("li");
+        li.textContent = amigos[i];
+        lista.appendChild(li);
+      } 
 }

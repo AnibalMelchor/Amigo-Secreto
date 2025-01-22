@@ -1,4 +1,4 @@
-<h1 align="center"> Juego del Amigo Secreto </h1>
+<h1 align="center">Amigo Secreto </h1>
 
 <ul>Descripción del Proyecto 
     <li>El siguiente juego consiste en añadir nombres de varios amigos</li>
